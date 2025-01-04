@@ -3,6 +3,15 @@ This project uses the BART model to summarize environmental content, extracting 
 
 This project employs the BART model for summarizing environmental content, focusing on topics such as climate change, biodiversity, and pollution. By fine-tuning BART on synthetic data, we enable concise and coherent summaries, aiding researchers, policymakers, and decision-makers.
 
+## Technologies Used  
+
+- **Transformers**: Utilized for the implementation and fine-tuning of the BART model.  
+- **Streamlit**: Provides an interactive interface for summarizing environmental texts.  
+- **NLP (Natural Language Processing)**: Applied to process and analyze large volumes of textual data.  
+- **Pandas**: Handles data manipulation and preparation tasks.  
+- **Hugging Face**: Powers the transformer-based model fine-tuning and inference.  
+- **JSON Dataset**: A pre-generated dataset in JSON format is provided for training and testing.  
+
 ## Model: BART  
 BART is a transformer-based sequence-to-sequence model combining a bidirectional (BERT-like) encoder and an autoregressive (GPT-like) decoder. Pre-trained on a text reconstruction task, BART is highly effective for text summarization and generation. Fine-tuning it on domain-specific data ensures accurate, topic-relevant summaries.
 
