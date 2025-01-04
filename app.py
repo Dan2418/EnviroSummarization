@@ -6,8 +6,8 @@ import streamlit as st
 from transformers import BartTokenizer, BartForConditionalGeneration
 
 # Step 1: Unzip the model archive
-model_zip_path = "Momo_bart_model.zip"
-model_dir = "Momo_bart_model"
+model_zip_path = "Enviro_bart_model.zip"
+model_dir = "Enviro_bart_model"
 
 if not os.path.exists(model_dir):
     with zipfile.ZipFile(model_zip_path, 'r') as zip_ref:
