@@ -26,3 +26,58 @@ The dataset contains columns for topics, articles, and summaries. Summaries were
 ## Usage  
 This project highlights the utility of transformer-based models like BART for summarizing large-scale text datasets in the environmental domain.
 
+
+## Quick Start
+
+1. **Run the Notebook and Save the Model:**
+
+   - Open the provided Jupyter Notebook file (`train_model.ipynb`) in your preferred environment (e.g., Jupyter Notebook, JupyterLab, Google Colab).  
+   - Execute the notebook cells to fine-tune the BART model on the provided dataset.  
+   - Once training is complete, save the fine-tuned model locally or in a designated output directory (e.g., `./environmental_summarizer_final`).  
+
+2. **Set Up Your Environment:**
+
+   **Windows:**
+   - Open your terminal and navigate to your project directory:  
+     ```bash
+     cd path/to/your/project
+     ```
+   - Create a virtual environment named `venv`:  
+     ```bash
+     python -m venv venv
+     ```
+   - Activate the virtual environment:  
+     ```bash
+     .\venv\Scripts\activate
+     ```
+
+   **Unix/macOS:**
+   - Open your terminal and navigate to your project directory:  
+     ```bash
+     cd path/to/your/project
+     ```
+   - Create a virtual environment named `venv`:  
+     ```bash
+     python3 -m venv venv
+     ```
+   - Activate the virtual environment:  
+     ```bash
+     source venv/bin/activate
+     ```
+
+3. **Install Dependencies:**
+
+   With your virtual environment activated, install the required dependencies by running:  
+   ```bash
+   pip install pdfplumber
+   pip install streamlit
+   pip install transformers
+   pip install torch
+   ```
+
+4. **Run Code:**
+  ```bash
+  streamlit run app.py
+  ```
+   
+
