@@ -31,9 +31,9 @@ This project highlights the utility of transformer-based models like BART for su
 
 1. **Run the Notebook and Save the Model:**
 
-   - Open the provided Jupyter Notebook file (`train_model.ipynb`) in your preferred environment (e.g., Jupyter Notebook, JupyterLab, Google Colab).  
+   - Open the provided Jupyter Notebook file (`BartModel_abst_summ.ipynb`) in your preferred environment (e.g., Jupyter Notebook, JupyterLab, Google Colab).  
    - Execute the notebook cells to fine-tune the BART model on the provided dataset.  
-   - Once training is complete, save the fine-tuned model locally or in a designated output directory (e.g., `./environmental_summarizer_final`).  
+   - Once training is complete, save the fine-tuned model locally or in a designated output directory (e.g., `./Enviro_bart_model`).  
 
 2. **Set Up Your Environment:**
 
